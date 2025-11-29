@@ -26,7 +26,7 @@ export default function BookDetailScreen({ route, navigation }) {
   const handleContact = () => {
     Alert.alert(
       "Contact Seller",
-      `Email: ${book.contact}\n\nYou can reach out to discuss this book!`,
+      `Email/Phn no: ${book.contact}\n\nYou can reach out to discuss this book!`,
       [{ text: "OK" }]
     );
   };
